@@ -10,9 +10,9 @@ function checkValidity($a, $b, $c)
     else
         return true; 
 } 
-  echo "a = 2"
-  echo "b = 3"
-        echo "c=4"
+  echo "a = 2<br>";
+  echo "b = 3<br>";
+  echo "c = 4<br>";
     // Driver Code 
     $a = 2;  
     $b = 3; 
@@ -23,4 +23,4 @@ function checkValidity($a, $b, $c)
     else
         echo "Khong La Tam Giac"; 
           
-// This code is contributed by nitin mittal. 
+// This code is contributed by nitin mittal.
