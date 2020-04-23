@@ -10,7 +10,9 @@ function checkValidity($a, $b, $c)
     else
         return true; 
 } 
-  
+  echo "a = 2"
+  echo "b = 3"
+        echo "c=4"
     // Driver Code 
     $a = 2;  
     $b = 3; 
