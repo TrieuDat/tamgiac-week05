@@ -1,10 +1,4 @@
-ightness_4
-<?php 
-// PHP program to check if three 
-// sides form a triangle or not 
-  
-// function to check if three sider 
-// form a triangle or not 
+<?php
 function checkValidity($a, $b, $c) 
 { 
       
@@ -18,14 +12,13 @@ function checkValidity($a, $b, $c)
 } 
   
     // Driver Code 
-    $a = 7;  
-    $b = 10; 
-    $c = 5; 
+    $a = 2;  
+    $b = 3; 
+    $c = 4; 
       
     if (checkValidity($a, $b, $c)) 
-        echo "Valid"; 
+        echo "La Tam Giac"; 
     else
-        echo "Invalid"; 
+        echo "Khong La Tam Giac"; 
           
 // This code is contributed by nitin mittal. 
-?> 
