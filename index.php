@@ -8,29 +8,29 @@
 <body>
    
     
-    <h1>Bai toan loai tam giac voi 3 canh a,b,c</h1>
+    <h1>Bài toán 3 cạnh tam giác với a, b,c </h1>
     <form action="loaitamgiac.php" method="get">
-        <br>Nhap canh a
+        <br>Nhập cạnh a
         <input type="text" name="a">
-        <br>Nhap canh b
+        <br>Nhập cạnh b
         <input type="text" name="b">
-        <br>Nhap canh c
+        <br>Nhập cạnh c
         <input type="text" name="c">
         <br>
-        <input type="submit" name="Caculate" value="KET QUA">
+        <input type="submit" name="Caculate" value="KẾT QUẢ">
         
     </form>
 
-    <h1>Tinh ngay ke tiep voi thong tin ngay thang nam</h1>
+    <h1>Tính ngày kế tiếp với thông tin ngày tháng năm</h1>
     <form action="ngayketiep.php" method="get">
-        <br>Nhap ngay
+        <br>Nhập ngày
         <input type="text" name="day">
-        <br>Nhap thang
+        <br>Nhập tháng
         <input type="text" name="month">
-        <br>Nhap nam        
+        <br>Nhập năm        
 		<input type="text" name="year">
         <br>
-        <input type="submit" name="Caculate2" value="KET QUA" >
+        <input type="submit" name="Caculate2" value="KẾT QUẢ" >
         
     </form>
 </body>
